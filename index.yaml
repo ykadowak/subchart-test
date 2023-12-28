@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-28T10:55:31.795115+09:00"
+    dependencies:
+    - condition: mysubchart.enabled
+      name: mysubchart
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 2f4a5a4b61c0a1b805b6e2e73378afde9cd3d19eef8f56c22ce8f1daa84816f1
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-28T10:55:31.794362+09:00"
