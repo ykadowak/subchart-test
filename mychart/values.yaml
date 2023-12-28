@@ -1,0 +1,9 @@
+favorite:
+  drink: coffee
+  food: pizza
+mysubchart:
+  enabled: true
+  dessert: ice cream
+
+global:
+  salad: caesar
