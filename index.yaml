@@ -3,7 +3,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-28T10:55:31.795115+09:00"
+    created: "2023-12-28T11:04:18.440095+09:00"
     dependencies:
     - condition: mysubchart.enabled
       name: mysubchart
@@ -15,4 +15,15 @@ entries:
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-28T10:55:31.794362+09:00"
+  mysymbolic:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-28T11:04:18.440213+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 921c6074e46d2d3746cec9cf77900c980a975df1c786a8f4d37f28209162549d
+    name: mysymbolic
+    type: application
+    urls:
+    - mysymbolic-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-28T11:04:18.439532+09:00"
